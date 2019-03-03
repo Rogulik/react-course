@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production",
+    "build": "webpack -p --env production",
     "test": "jest --watchAll"
   },
   "author": "Marcin Rygielski",
@@ -14,8 +14,10 @@
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.1.0",
     "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
     "moment": "^2.24.0",
     "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
