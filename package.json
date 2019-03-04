@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node server/server.js",
-    "create": "webpack-dev-server --mode development --open",
+    "create": "webpack-dev-server --mode development",
     "build": "webpack -p --env production",
     "heroku-postbuild": "npm run create",
     "test": "jest --watchAll"
