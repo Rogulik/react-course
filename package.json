@@ -7,7 +7,7 @@
     "start": "node server/server.js",
     "create": "webpack-dev-server --mode development",
     "build": "webpack -p --env production",
-    "heroku-postbuild": "npm run create",
+    "heroku-postbuild": "npm run build",
     "test": "jest --watchAll"
   },
   "author": "Marcin Rygielski",
